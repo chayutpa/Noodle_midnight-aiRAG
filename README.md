@@ -1,6 +1,18 @@
-# MilkLab° AI — Demi RAG Chatbot
+---
+title: "NoodleMidnight Noodle"
+emoji: "🍜"
+colorFrom: "red"
+colorTo: "red"
+sdk: "streamlit"
+app_file: "app.py"
+pinned: false
+---
 
-Template สำหรับ Session 3 ของคอร์ส STSW
+# NoodleMidnight AI — Noodle RAG Chatbot
+
+link live demo: https://huggingface.co/spaces/Yut15346/MilkyWay-demi
+
+ดูรายละเอียดเพิ่มเติมได้ที่ [PIVOT.md](PIVOT.md)
 
 ## วิธีเริ่ม
 
@@ -10,17 +22,4 @@ Template สำหรับ Session 3 ของคอร์ส STSW
 4. เขียน `rag_engine.py` และ `app.py` ตามคู่มือ Session 3
 5. รัน `streamlit run app.py` เพื่อทดสอบ
 
-## โครงสร้างที่เตรียมไว้ให้
 
-- `.devcontainer/devcontainer.json` — Python 3.11 + Copilot + Pylance
-- `requirements.txt` — streamlit, sentence-transformers, faiss-cpu, google-genai
-- `knowledge/milklab_kb.txt` — knowledge base ตัวอย่างของร้าน MilkLab°
-- `.gitignore` — กัน `.env` และ credential หลุดขึ้น GitHub
-
-## ไฟล์ที่ต้องเขียนเอง
-
-- `rag_engine.py` — RAG pipeline 5 ขั้น (Load → Chunk → Embed → Search → Generate)
-- `app.py` — Streamlit UI + เรียก Gemini API
-- `.env` — เก็บ `GOOGLE_API_KEY` (อย่า commit ขึ้น GitHub)
-
-ดูคู่มือเต็มที่  https://ecp-rmuti.gitbook.io/ai-for-solopreneurs/sessions/session-3 
