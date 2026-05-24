@@ -19,20 +19,6 @@ def load_rag():
 
 rag = load_rag()
 
-st.markdown(
-    """
-    <style>
-    .block-container {
-        border: 1px solid rgba(128, 128, 128, 0.18);
-        border-radius: 24px;
-        padding: 1.25rem;
-        background: rgba(255, 255, 255, 0.02);
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
 st.title("Noodle🍜 ผู้ช่วย AI ของร้าน ก๋วยเตี๋ยวกลางดึก")
 st.caption("ถามเรื่องเมนู เวลาเปิด หรือข้อมูลร้านได้เลย")
 
