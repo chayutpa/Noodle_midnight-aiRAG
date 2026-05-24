@@ -22,4 +22,11 @@ link live demo: https://huggingface.co/spaces/Yut15346/MilkyWay-demi
 4. เขียน `rag_engine.py` และ `app.py` ตามคู่มือ Session 3
 5. รัน `streamlit run app.py` เพื่อทดสอบ
 
+## Demo Day Self-Check
+
+- [ ] Deploy URL ใช้งานได้ (เปิดทดสอบล่าสุด: __________)
+- [✔️] ไม่มี `.env` หรือ `*.json` ใน git history
+- [✔️] PIVOT.md ครบ 3 ข้อ
+- [ ] README อธิบายระบบของ domain ตัวเอง (ไม่ใช่ MilkLab°)
+- [✔️] knowledge base, prompt, UI ปรับเป็น domain ใหม่หมดแล้ว
 
