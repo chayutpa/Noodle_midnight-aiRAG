@@ -26,7 +26,7 @@ link live demo: https://huggingface.co/spaces/Yut15346/MilkyWay-demi
 
 ## Demo Day Self-Check
 
-- [✔️] Deploy URL ใช้งานได้ (เปิดทดสอบล่าสุด: __________)
+- [✔️] Deploy URL ใช้งานได้ (เปิดทดสอบล่าสุด: 24/5/2569)
 - [✔️] ไม่มี `.env` หรือ `*.json` ใน git history
 - [✔️] PIVOT.md ครบ 3 ข้อ
 - [✔️] README อธิบายระบบของ domain ตัวเอง (ไม่ใช่ MilkLab°)
