@@ -13,4 +13,4 @@ jobs:
     steps:
       - name: Send Ping Request
         run: |
-          curl -I -s https://huggingface.co/spaces/Yut15346/NoodleMidnight
+          curl -L -s -o /dev/null -w "%{http_code}" https://yut15346-noodlemidnight.hf.space
